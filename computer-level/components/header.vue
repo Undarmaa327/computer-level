@@ -111,7 +111,7 @@ export default {
     height: 100%;
 }
 .nav .link:hover {
-    color: #25BC3D;
+    color: white;
 }
 .nav-item {
     height: 80px !important;

@@ -2,6 +2,14 @@
   <div>
     <Header/>
 
+    <div class="image">
+        <img src="~/assets/landing-page/canva.png">
+        <div class="centered">
+            <span class="titles">Сур мэд бататга</span> <br>
+            <span class="subsubtitle">Level.mn нь таны компьютерийн ур чадварыг шалгаж, ур чадвараа хөгжүүлж, гэрчилгээ авч мэдлэгээ бататгах боломжтой.</span>
+        </div>
+    </div>
+
      <v-container class="container">
        <v-row justify="center" class="mt-16"><img src="~/assets/landing-page/build.png" alt="printon-logo"></v-row>
             <v-row justify="center" class="mt-5"><h1>Хэрхэн ажилладаг вэ?</h1></v-row>
@@ -9,86 +17,168 @@
               <iframe width="420" height="240" src="https://www.youtube.com/embed/zOjov-2OZ0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <v-row justify="center" class="mt-10"><p style="text-align: center;"><span style="color: black;">Level.mn нь өдөр тутмын амьдрал, ажил эрхлэлт, дээд боловсрол зэрэгт компьютер, интернет ашиглахад шаардагдах үндсэн ур чадварыг тодорхойлно.</span></p></v-row>
-            <v-row justify="center" class="mt-16"><v-btn color="#25BC3D" x-large width="200" href="/products"><span style="color:white; font-fmily: 'Roboto'">Эхлэх</span></v-btn></v-row>
-            <v-row justify="center" style="margin-top: 150px"><h2>Бидний санал болгох 5 үйлчилгээ</h2></v-row>
-            <v-row
-                no-gutters
-                style="margin-top: 100px"
-                class="mx-16"
-                >
-                <v-col>
-                    <div class="gifdiv"></div>
-                </v-col>
-                <v-col>
-                    <div class="desc">
-                        <div class="innerdesc">
-                            <div class="mb-10"><h1>Сонгох</h1></div>
-                            <div class="mt-16"><p><span class="text">Манайд байгаа нийт 300 гаруй бүтээгдэхүүнээс хүссэн бүтээгдэхүүнээ сонгох боломжтой. Өөрт тохирох, өөрт таалагдсан, өөрийн нэрийн бүтээгдэхүүнд хамгийн ойр чанартай бүтээгдэхүүнээс сонголтоо хийгээрэй.</span></p></div>
-                        </div>
-                    </div>
-                </v-col>
+            
+            <v-container class="mt-10 border">
+                <v-row no-gutters>
+                    <v-col
+                        cols="12"   
+                        md="8"
+                    >
+                        <p class="subtitle">1. Онлайнаар, бие даан суралцаж түвшин бүрийн үндсэн ур чадварыг эзэмшсэн эсэхийг тогтооно.</p>
+                        <br>
+                        <p class="description">Онлайн шалгалт өгснөөр Level.mn гэрчилгээ авах боломжтой. Бусад түвшин тогтоох шалгалтыг өгөх боломжтой бөгөөд, сургалт, семинар түвшин ахиулах боломжийг олгож карьераа улам дээшлүүлэх боломжтой.</p>
+                    </v-col>
+                    <v-col
+                        cols="6"
+                        md="4"
+                    >
+                        <img class="step" src="~/assets/landing-page/step1.png">
+                    </v-col>
                 </v-row>
-                <v-row
-                no-gutters
-                style="margin-top: 100px"
-                class="mx-16"
-                >
-                <v-col>
-                    <div class="desc">
-                        <div class="innerdesc-right">
-                            <div class="mb-10"><h1>Бренд үүсгэх</h1></div>
-                            <div class="mt-16"><p><span class="text">Та хүссэн бараагаа хүссэнээр өөрчилж загвараа гаргах боломжтой юм. Та үүсгэсэн бүтээгдэхүүнээ урьдчилаад харах боломжтой бөгөөд бид танд хамгийн чанартай, шинэлэг бүтээгдэхүүн санал болгож таны брендийг бий болгоход туслах болно.</span></p></div>
-                        </div>
-                    </div>
-                </v-col>
-                <v-col>
-                    <div class="gifdiv"></div>
-                </v-col>
+            </v-container>
+            <v-container class="mt-10 border">
+                <v-row no-gutters>
+                    <v-col
+                        cols="12"   
+                        md="8"
+                    >
+                        <p class="subtitle">2. Онлайнаар, бие даан суралцаж түвшин бүрийн үндсэн ур чадварыг эзэмшсэн эсэхийг тогтооно.</p>
+                        <br>
+                        <p class="description">Онлайн шалгалт өгснөөр Level.mn гэрчилгээ авах боломжтой. Бусад түвшин тогтоох шалгалтыг өгөх боломжтой бөгөөд, сургалт, семинар түвшин ахиулах боломжийг олгож карьераа улам дээшлүүлэх боломжтой.</p>
+                    </v-col>
+                    <v-col
+                        cols="6"
+                        md="4"
+                    >
+                        <img class="step" src="~/assets/landing-page/step2.png">
+                    </v-col>
                 </v-row>
-                <v-row
-                no-gutters
-                style="margin-top: 100px"
-                class="mx-16"
-                >
-                <v-col>
-                    <div class="gifdiv"></div>
-                </v-col>
-                <v-col>
-                    <div class="desc">
-                        <div class="innerdesc">
-                            <div class="mb-10"><h1>Миний дэлгүүр</h1></div>
-                            <div class="mt-16"><p><span class="text">Миний дэлгүүр хэсэгт таны үүсгэсэн бүтээгдэхүүн таныг устгах хүртэл хадгалагдах болно. Тоо ширхэг өөрчлөх, өнгө солих, загвараа шинээр хийх боломж танд өгөх болно.</span></p></div>
-                        </div>
-                    </div>
-                </v-col>
+            </v-container>
+            <v-container class="mt-10">
+                <v-row no-gutters>
+                    <v-col
+                        cols="12"   
+                        md="8"
+                    >
+                        <p class="subtitle">3. Онлайнаар, бие даан суралцаж түвшин бүрийн үндсэн ур чадварыг эзэмшсэн эсэхийг тогтооно.</p>
+                        <br>
+                        <p class="description">Онлайн шалгалт өгснөөр Level.mn гэрчилгээ авах боломжтой. Бусад түвшин тогтоох шалгалтыг өгөх боломжтой бөгөөд, сургалт, семинар түвшин ахиулах боломжийг олгож карьераа улам дээшлүүлэх боломжтой.</p>
+                    </v-col>
+                    <v-col
+                        cols="6"
+                        md="4"
+                    >
+                        <img class="step" src="~/assets/landing-page/step3.png">
+                    </v-col>
                 </v-row>
-                <v-row
-                no-gutters
-                style="margin-top: 100px"
-                class="mx-16"
-                >
-                <v-col>
-                    <div class="desc">
-                        <div class="innerdesc-right">
-                            <div class="mb-10"><h1>Хүргэлт</h1></div>
-                            <div class="mt-16"><p><span class="text">Таны захиалсан бараа бүтээгдэхүүнийг маш болгоомжтой таны гар дээр түргэн шуурхай 100% сэтгэл ханамжтай хүргэж өгөх болно.</span></p></div>
-                        </div>
-                    </div>
-                </v-col>
-                <v-col>
-                    <div class="gifdiv"></div>
-                </v-col>
-                </v-row>
+            </v-container>           
         </v-container>
+                <div class="test-container">
+                            <v-row justify="center" class="mt-16 pt-5"><img src="~/assets/landing-page/test.png" alt="printon-logo"></v-row>
+                            <v-row justify="center" class="mt-5"><h2>Шалгалт өгөх</h2></v-row>
+                            <v-row justify="center" class="mt-10"><p style="text-align: center;"><span style="color: black;">Та мэддэг зүйлээ туршиж үзэхийг хүсч байна уу? Дараах онлайн модулиудын аль нэгийг нь бөглөнө үү.</span></p></v-row>
+
+                            <v-container >
+                                    <v-row class="mb-1">
+                                        <v-col
+                                        cols="12"
+                                        sm="4"
+                                        >
+                                            <v-card
+                                            class="mx-auto"
+                                            max-width="344"
+                                            height="320"
+                                            >
+                                                <img class="test"
+                                                    src="~/assets/landing-page/test.png"
+                                                >
+                                                <p class="test-title mt-5">
+                                                    Компьютерийн үндсэн ур чадвар
+                                                </p>
+                                                <ul class="test-bar">
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Бидний тухай</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Онцлог</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Үйлчилгээ</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="#"><div class="test-link-item"><span>Холбоо барих</span></div></a></li>
+                                                </ul>
+                                            </v-card>
+                                        </v-col>
+                                        <v-col
+                                        cols="12"
+                                        sm="4"
+                                        >
+                                            <v-card
+                                            class="mx-auto"
+                                            max-width="344"
+                                            height="320"
+                                            >
+                                                <img class="test"
+                                                    src="~/assets/landing-page/test.png"
+                                                >
+                                                <p class="test-title mt-5">
+                                                    Компьютерийн үндсэн ур чадвар
+                                                </p>
+                                                <ul class="test-bar">
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Бидний тухай</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Онцлог</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Үйлчилгээ</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="#"><div class="test-link-item"><span>Холбоо барих</span></div></a></li>
+                                                </ul>
+                                            </v-card>
+                                        </v-col>
+                                        <v-col
+                                        cols="12"
+                                        sm="4"
+                                        >
+                                            <v-card
+                                            class="mx-auto"
+                                            max-width="344"
+                                            height="320"
+                                            >
+                                                <img class="test"
+                                                    src="~/assets/landing-page/test.png"
+                                                >
+                                                <p class="test-title mt-5">
+                                                    Компьютерийн үндсэн ур чадвар
+                                                </p>
+                                                <ul class="test-bar">
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Бидний тухай</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Онцлог</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Үйлчилгээ</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="#"><div class="test-link-item"><span>Холбоо барих</span></div></a></li>
+                                                </ul>
+                                            </v-card>
+                                        </v-col>
+                                    </v-row>
+                            </v-container>
+                        </div>
+                        <div class="mission-container">
+                            <v-container >
+                                    <v-row class="" no-gutters>
+                                        <v-col
+                                        >
+                                        <h2 style="color: #2292B3">Бидний даалгавар</h2> <br>
+                                        <p>Дэлхий даяарх хүмүүст ажиллах, суралцах, өдөр тутмын амьдралд бүрэн оролцоход шаардлагатай дижитал ур чадварыг эзэмшихэд нь туслах.</p>
+                                        </v-col>
+                                        <v-col
+                                        >
+                                        <v-btn class="ml-16" color="#2292B3">Бүртгүүлэх</v-btn>
+                                        </v-col>
+                                    </v-row>
+                            </v-container>
+                        </div>
+    <Footer/>
   </div>
 </template>
 
 
 <script>
 import  Header  from "~/components/header.vue";
+import  Footer  from "~/components/footer.vue";
 export default {
   components :{
-    Header
+    Header,
+    Footer
   }
 }
 </script>
@@ -96,6 +186,123 @@ export default {
 <style scoped>
  .header + .container{
   margin-top: 80px;
+}
+
+.titles {
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 90px;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.81);
+}
+
+.subsubtitle {
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #dddddd;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mission-container {
+    background-color: #FEF3DD;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.test-container {
+    background-color: #E9ECEF;
+}
+
+.test-item .test-link {
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2292B3;
+    line-height: 2;
+    transition: color 0.5s ease;
+    height: 100%;
+}
+.test-item .test-link:hover {
+    cursor: pointer;
+}
+
+.test-link-item {
+    border-bottom: 1px solid#9C9C9C;
+    margin-right: 50px;
+}
+
+.test-link {
+    text-decoration: none;
+}
+
+.test-bar {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.test-title{
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.test {
+    margin-left: 130px;
+    margin-top: 3px;
+}
+
+.border {
+    border-bottom: 1px solid#9C9C9C;
+}
+
+.step {
+    margin-left: 10px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.75);
+}
+
+.subtitle {
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #6C757D;
+    /* display: flex;
+    flex-direction: row; */
+    align-items: right;
+    justify-content: right;
+    line-height: 1.2;
+}
+
+.description {
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #6C757D;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
 }
 
 .youtube {
