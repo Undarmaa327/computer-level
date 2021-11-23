@@ -18,7 +18,6 @@
                   <ul class="footer-bar">
                     <li class="footer-item"><a class="footer-link" href="#"><div class="footer-link-item"><span>Төлбөр</span></div></a></li>
                     <li class="footer-item"><a class="footer-link" href="#"><div class="footer-link-item"><span>Үнэ цэнэ</span></div></a></li>
-                    <li class="footer-item"><a class="footer-link" href="#"><div class="footer-link-item"><span>Цамц</span></div></a></li>
                 </ul>
               </v-col>
               <v-col>

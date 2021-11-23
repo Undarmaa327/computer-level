@@ -24,11 +24,11 @@
                                 active-class="deep-purple--text text--accent-4"                                
                                 >
                                 <v-list-item>
-                                    <v-list-item-title><a class="link" href="/products"><div class="slider"><span>Бидний тухай</span></div></a></v-list-item-title>
+                                    <v-list-item-title><a class="link" href="/about"><div class="slider"><span>Бидний тухай</span></div></a></v-list-item-title>
                                 </v-list-item>
 
                                 <v-list-item>
-                                    <v-list-item-title><a class="link" href="/how-it-works"><div class="slider"><span>Онцлог</span></div></a></v-list-item-title>
+                                    <v-list-item-title><a class="link" href="/feature"><div class="slider"><span>Онцлог</span></div></a></v-list-item-title>
                                 </v-list-item>
 
                                 <v-list-item>
@@ -36,7 +36,7 @@
                                 </v-list-item>
 
                                 <v-list-item>
-                                    <v-list-item-title><a class="link" href="#"><div class="slider"><span>Холбоо барих</span></div></a></v-list-item-title>
+                                    <v-list-item-title><a class="link" href="/contact"><div class="slider"><span>Холбоо барих</span></div></a></v-list-item-title>
                                 </v-list-item>
                                 <v-list-item>
                                     <v-list-item-title><a class="link nav-item-extra" href="/signin"><div class="slider"><v-btn outlined rounded class="btn-item" color="#25BC3D"><span class="signin">Sign in</span></v-btn></div></a></v-list-item-title>
@@ -50,11 +50,11 @@
                         </div></li>
                     <li class="nav-item"><a class="link nav-item-extra" href="/signup"><div class="link-item d-none d-sm-flex"><v-btn rounded class="ml-n8 btn-item" color="#7D7D7D"><span class="signup">Sign up</span></v-btn></div></a></li>
                     <li class="nav-item"><a class="link nav-item-extra" href="/signin"><div class="link-item d-none d-sm-flex"><v-btn outlined rounded class="ml-0 btn-item" color="#7D7D7D"><span class="signin">Sign in</span></v-btn></div></a></li>
-                    <li class="nav-item"><a class="link" href="#"><div class="link-item d-none d-lg-flex d-xl-none"><span>Холбоо барих</span></div></a></li>
+                    <li class="nav-item"><a class="link" href="/contact"><div class="link-item d-none d-lg-flex d-xl-none"><span>Холбоо барих</span></div></a></li>
                     <!-- <li class="nav-item"><a class="link" href="#"><div class="link-item"><span>Блог</span></div></a></li> -->
                     <li class="nav-item"><a class="link" href="/service"><div class="link-item d-none d-sm-flex"><span>Үйлчилгээ</span></div></a></li>
-                    <li class="nav-item"><a class="link" href="/how-it-works"><div class="link-item d-none d-lg-flex d-xl-none"><span>Онцлог</span></div></a></li>
-                    <li class="nav-item"><a class="link" href="/products"><div class="link-item d-none d-sm-flex"><span>Бидний тухай</span></div></a></li>
+                    <li class="nav-item"><a class="link" href="/feature"><div class="link-item d-none d-lg-flex d-xl-none"><span>Онцлог</span></div></a></li>
+                    <li class="nav-item"><a class="link" href="/about"><div class="link-item d-none d-sm-flex"><span>Бидний тухай</span></div></a></li>
                     <li class="logo"><a class="link" href="/"><div class="link-item"><img src="~/assets/logo/computer.png" alt="computer-logo"></div></a></li>
                 </ul>
             </nav>

@@ -42,9 +42,9 @@
                         cols="12"   
                         md="8"
                     >
-                        <p class="subtitle">2. Онлайнаар, бие даан суралцаж түвшин бүрийн үндсэн ур чадварыг эзэмшсэн эсэхийг тогтооно.</p>
+                        <p class="subtitle">2. Танхимийн сургалтын хөтөлбөр нь багш нарт зориулсан хичээлийн нарийвчилсан төлөвлөгөөгөөр хангадаг бөгөөд үүнийг алсаас болон биечлэн авч болно.</p>
                         <br>
-                        <p class="description">Онлайн шалгалт өгснөөр Level.mn гэрчилгээ авах боломжтой. Бусад түвшин тогтоох шалгалтыг өгөх боломжтой бөгөөд, сургалт, семинар түвшин ахиулах боломжийг олгож карьераа улам дээшлүүлэх боломжтой.</p>
+                        <p class="description">Хичээлийн төлөвлөгөө нь суралцагч төвтэй, интерактив байдаг. Хичээлүүд нь суралцагчдад дадлага хийх замаар дижитал бичиг үсгийн ур чадварыг хөгжүүлэх олон боломжийг олгодог. Хичээлийн төлөвлөгөө бүрд багш бэлтгэх дэлгэрэнгүй гарын авлага багтсан болно. Level.mn мөн алсын зайнаас сургалтын хуудсууд болон алсын зайнаас заах гарын авлага гаргаж, сургалтын хөтөлбөрийг алсаас ашиглах талаар зааварчилгаа өгдөг. Хичээлүүд нь бие халаалт, өдөр тутмын зорилго, дадлагын даалгавар, дижитал бичиг үсгийн толь бичгийн ажил, дүгнэлтийг багтаасан бүтэцтэй.</p>
                     </v-col>
                     <v-col
                         cols="6"
@@ -60,9 +60,9 @@
                         cols="12"   
                         md="8"
                     >
-                        <p class="subtitle">3. Онлайнаар, бие даан суралцаж түвшин бүрийн үндсэн ур чадварыг эзэмшсэн эсэхийг тогтооно.</p>
+                        <p class="subtitle">3. Level.mn нь ганцаарчилсан онлайн заавар, дадлага хийдэг.</p>
                         <br>
-                        <p class="description">Онлайн шалгалт өгснөөр Level.mn гэрчилгээ авах боломжтой. Бусад түвшин тогтоох шалгалтыг өгөх боломжтой бөгөөд, сургалт, семинар түвшин ахиулах боломжийг олгож карьераа улам дээшлүүлэх боломжтой.</p>
+                        <p class="description">Level.mn нь оюутнууд бие даан хандах боломжтой анхны онлайн контентоор хангадаг. Суралцагчид үнэлгээгээ авсны дараагаар тэдний сурах шаардлагатай зүйлтэй тохирох NSOL контент руу автоматаар чиглэгддэг.</p>
                     </v-col>
                     <v-col
                         cols="6"
@@ -96,10 +96,10 @@
                                                     Компьютерийн үндсэн ур чадвар
                                                 </p>
                                                 <ul class="test-bar">
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Бидний тухай</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Онцлог</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Үйлчилгээ</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="#"><div class="test-link-item"><span>Холбоо барих</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Компьютерийн үндсэн ур чадвар</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Интернетийн үндэс</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Имэйл ашиглах</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Windows</span></div></a></li>
                                                 </ul>
                                             </v-card>
                                         </v-col>
@@ -116,13 +116,12 @@
                                                     src="~/assets/landing-page/test.png"
                                                 >
                                                 <p class="test-title mt-5">
-                                                    Компьютерийн үндсэн ур чадвар
+                                                    Хэрэглээний програм
                                                 </p>
                                                 <ul class="test-bar">
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Бидний тухай</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Онцлог</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Үйлчилгээ</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="#"><div class="test-link-item"><span>Холбоо барих</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Microsoft Word</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Microsoft Excel</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Microsoft Powerpoint</span></div></a></li>
                                                 </ul>
                                             </v-card>
                                         </v-col>
@@ -139,13 +138,11 @@
                                                     src="~/assets/landing-page/test.png"
                                                 >
                                                 <p class="test-title mt-5">
-                                                    Компьютерийн үндсэн ур чадвар
+                                                    Өдөр тутмын амьдралд технологийг ашиглах
                                                 </p>
                                                 <ul class="test-bar">
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Бидний тухай</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Онцлог</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="/#"><div class="test-link-item"><span>Үйлчилгээ</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="#"><div class="test-link-item"><span>Холбоо барих</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Олон нийтийн сүлжээ</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Карьер хайх ур чадвар</span></div></a></li>
                                                 </ul>
                                             </v-card>
                                         </v-col>
