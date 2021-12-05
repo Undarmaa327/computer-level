@@ -23,9 +23,9 @@
                                 color="#25BC3D"
                                 active-class="deep-purple--text text--accent-4"                                
                                 >
-                                <v-list-item>
+                                <!-- <v-list-item>
                                     <v-list-item-title><a class="link" href="/about"><div class="slider"><span>Бидний тухай</span></div></a></v-list-item-title>
-                                </v-list-item>
+                                </v-list-item> -->
 
                                 <v-list-item>
                                     <v-list-item-title><a class="link" href="/feature"><div class="slider"><span>Онцлог</span></div></a></v-list-item-title>
@@ -54,7 +54,7 @@
                     <!-- <li class="nav-item"><a class="link" href="#"><div class="link-item"><span>Блог</span></div></a></li> -->
                     <li class="nav-item"><a class="link" href="/service"><div class="link-item d-none d-sm-flex"><span>Үйлчилгээ</span></div></a></li>
                     <li class="nav-item"><a class="link" href="/feature"><div class="link-item d-none d-lg-flex d-xl-none"><span>Онцлог</span></div></a></li>
-                    <li class="nav-item"><a class="link" href="/about"><div class="link-item d-none d-sm-flex"><span>Бидний тухай</span></div></a></li>
+                    <!-- <li class="nav-item"><a class="link" href="/about"><div class="link-item d-none d-sm-flex"><span>Бидний тухай</span></div></a></li> -->
                     <li class="logo"><a class="link" href="/"><div class="link-item"><img src="~/assets/logo/computer.png" alt="computer-logo"></div></a></li>
                 </ul>
             </nav>

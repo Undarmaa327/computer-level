@@ -28,7 +28,7 @@
                     label="Question"
                     color="#2292B3"
                     ></v-textarea>
-                    <v-btn color="#2292B3">Илгээх</v-btn>
+                    <v-btn class="send" color="#2292B3">Илгээх</v-btn>
             </v-container>
         <Footer/>
     </div>
@@ -45,7 +45,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.send {
+    color: white;
+    text-transform: capitalize;
+}
 .subtitle {
     font-weight: 500;
     font-family: 'Roboto';
