@@ -18,9 +18,9 @@
                 height="280"
                 >
               <img class="product"
-                src="~/assets/landing-page/canva.png"
+                src="~/assets/feature/step1.png"
               >
-              <v-card-title>Подволк</v-card-title>
+              <p class="desc">Онлайнаар та өөрийн түвшингөө тогтооно</p>
               </v-card>
             </v-col>
             <v-col>
@@ -31,9 +31,9 @@
                 height="280"
                 >
               <img class="product"
-                src="~/assets/landing-page/canva.png"
+                src="~/assets/feature/step2.png"
               >
-              <v-card-title>Малгайтай цамц</v-card-title>
+              <p class="desc">Өөрийн эзэмшсэн болон сайжруулах шаардлагатай хэсгүүдийн тайланг гаргаж өгнө</p>
               </v-card>
             </v-col>
             <v-col>
@@ -44,9 +44,9 @@
                 height="280"
                 >
               <img class="product"
-                src="~/assets/landing-page/canva.png"
+                src="~/assets/feature/step4.png"
               >
-              <v-card-title>Аяга</v-card-title>
+              <p class="desc">Бүх хэрэглэгчид маань гэрчилгээ авах боломжтой</p>
               </v-card>
             </v-col>            
           </v-row>
@@ -59,9 +59,9 @@
                 height="280"
                 >
               <img class="product"
-                src="~/assets/landing-page/canva.png"
+                src="~/assets/feature/step5.png"
               >
-              <v-card-title>Малгай</v-card-title>
+              <p class="desc">Хэрэглэгчид мэдээж түвшингөө ахиулах боломжтой</p>
               </v-card>
             </v-col>
             <v-col>
@@ -72,22 +72,9 @@
                 height="280"
                 >
               <img class="product"
-                src="~/assets/landing-page/canva.png"
+                src="~/assets/feature/step3.png"
               >
-              <v-card-title>Утасны кейс</v-card-title>
-              </v-card>
-            </v-col>
-            <v-col>
-              <v-card
-                tile
-                class="mx-auto"
-                max-width="300"
-                height="280"
-                >
-              <img class="product"
-                src="~/assets/landing-page/canva.png"
-              >
-              <v-card-title>Утасны кейс</v-card-title>
+              <p class="desc"><a href="exam">Шалгалт өгөх</a></p>
               </v-card>
             </v-col>
           </v-row>
@@ -109,6 +96,9 @@ export default {
 </script>
 
 <style>
+.desc {
+  padding-left: 5px;
+}
 .product {
   width: 300px;
   height: 200px;
