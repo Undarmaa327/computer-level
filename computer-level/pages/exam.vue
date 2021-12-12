@@ -47,7 +47,6 @@
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
 export default {
   data(){
     return{
@@ -102,6 +101,127 @@ export default {
             {props: require("~/assets/exam/2.png"),},
             {props: require("~/assets/exam/3.png"),},
             {props: require("~/assets/exam/4.png"),}    
+            
+          ]
+          
+        },
+        {
+          question:"Оруулсан байгаа аппликейшнийг хаах боломжит үйлдлийг хийнэ үү?",
+          propositions:[
+            {props: require("~/assets/exam/k1.png"),correct:true},
+            {props: require("~/assets/exam/k2.png"),},
+            {props: require("~/assets/exam/k3.png"),},
+            {props: require("~/assets/exam/k4.png"),}    
+            
+          ]
+          
+        },
+        {
+          question:"Бүх үсгийг томоор бичихийн тулд ямар товчлуурыг дарах хэрэгтэй вэ?",
+          propositions:[
+            {props: require("~/assets/exam/k1.png"),},
+            {props: require("~/assets/exam/k2.png"),correct:true},
+            {props: require("~/assets/exam/k3.png"),},
+            {props: require("~/assets/exam/k4.png"),}    
+            
+          ]
+          
+        },
+        {
+          question:"Шинэ мөр эхлүүлэхийн тулд ямар товчон дээр дарах хэрэгтэй вэ?",
+          propositions:[
+            {props: require("~/assets/exam/k1.png"),},
+            {props: require("~/assets/exam/k2.png"),},
+            {props: require("~/assets/exam/k3.png"),correct:true},
+            {props: require("~/assets/exam/k4.png"),}    
+            
+          ]
+          
+        },
+        {
+          question:"Ямар нэгэн хийсэн үйлдэл болон оруулсан текстээ хэрхэн буцаах вэ?",
+          propositions:[
+            {props: require("~/assets/exam/k1.png"),},
+            {props: require("~/assets/exam/k2.png"),},
+            {props: require("~/assets/exam/k3.png"),},
+            {props: require("~/assets/exam/k4.png"),correct:true}    
+            
+          ]
+          
+        },
+        {
+          question:"Оруулсан байгаа бүх текстүүдийг хэрхэн тодруулах(идэвхижүүлэх) вэ?",
+          propositions:[
+            {props: require("~/assets/exam/k1.png"),},
+            {props: require("~/assets/exam/k2.png"),},
+            {props: require("~/assets/exam/k3.png"),},
+            {props: require("~/assets/exam/k5.png"),correct:true}    
+            
+          ]
+          
+        },
+        {
+          question:"Microsoft Excel программ дээр аливаа cell-үүдэд оруулсан format-ийг ямар товчийг даран хуулах боломжтой вэ?",
+          propositions:[
+            {props: require("~/assets/exam/p2.png"),correct:true},
+            {props: require("~/assets/exam/p3.png"),},
+            {props: require("~/assets/exam/p4.png"),},
+            {props: require("~/assets/exam/p5.png"),}    
+            
+          ]
+          
+        },
+        {
+          question:"Microsoft Excel программ дээр сонгосон cell-үүдийг хэрхэн нэгтгэх вэ?",
+          propositions:[
+            {props: require("~/assets/exam/p2.png"),},
+            {props: require("~/assets/exam/p3.png"),correct:true},
+            {props: require("~/assets/exam/p4.png"),},
+            {props: require("~/assets/exam/p5.png"),}    
+            
+          ]
+          
+        },
+        {
+          question:"Microsoft Excel программ дээр баганад байгаа өгөгдлөөр нь хэрхэн эрэмблэх вэ?",
+          propositions:[
+            {props: require("~/assets/exam/p2.png"),},
+            {props: require("~/assets/exam/p3.png"),},
+            {props: require("~/assets/exam/p4.png"),correct:true},
+            {props: require("~/assets/exam/p5.png"),}    
+            
+          ]
+          
+        },
+        {
+          question:"Microsoft Word программ дээр хүснэгт үүсгэхэд аль товч дээр дарах вэ?",
+          propositions:[
+            {props: require("~/assets/exam/p2.png"),},
+            {props: require("~/assets/exam/p3.png"),},
+            {props: require("~/assets/exam/p4.png"),},
+            {props: require("~/assets/exam/p5.png"),correct:true}    
+            
+          ]
+          
+        },
+        {
+          question:"Microsoft Word программ дээр диаграмм үүсгэхэд аль товч дээр дарах вэ?",
+          propositions:[
+            {props: require("~/assets/exam/p2.png"),},
+            {props: require("~/assets/exam/p6.png"),correct:true},
+            {props: require("~/assets/exam/p4.png"),},
+            {props: require("~/assets/exam/p5.png"),}    
+            
+          ]
+          
+        },
+        {
+          question:"Microsoft Word программ дээр хуудсыг 2 болон түүнээс дээш баганад хуваахдаа аль товчыг дарж сонголт хийх вэ?",
+          propositions:[
+            {props: require("~/assets/exam/p7.png"),correct:true},
+            {props: require("~/assets/exam/p3.png"),},
+            {props: require("~/assets/exam/p4.png"),},
+            {props: require("~/assets/exam/p5.png"),}    
             
           ]
           
