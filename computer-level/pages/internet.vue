@@ -3,7 +3,7 @@
 
         <div class="container-quiz">
           <div class="header-quiz">
-            <h1>Компьютерийн үндсэн ур чадвар</h1>
+            <h1>Интернетийн үндэс</h1>
           </div>
           <div class="step-progress" :style="{'width':progress + '%'}"></div>
           <div class="box" v-for="(question,index) in questions.slice(a,b)" :key="index" v-show="quiz">
@@ -52,120 +52,14 @@ export default {
     return{
       questions:[
         {
-          question:"Зурагт үзүүлсэн байгаа зүйлсээс аль нь дэлгэц дээрх курсорыг хөдөлгөх боломжтой вэ?     ",
+          question:"Интернэтэд холбогдох боломжтой төхөөрөмж аль нь вэ ?",
           propositions:[
-            {props: require("~/assets/exam/q1.jpg"),correct:true},
-            {props: require("~/assets/exam/q2.jpg"),},
-            {props: require("~/assets/exam/q3.png"),},
-            {props: require("~/assets/exam/q4.png"),correct:true}
+            {props: require("~/assets/exam/16.jpg"),},
+            {props: require("~/assets/exam/17.jpg"),},
+            {props: require("~/assets/exam/18.png"),correct:true},
+            {props: require("~/assets/exam/19.png"),}
           ]
-        },
-        {
-          question:"Зурагт үзүүлсэн байгаа зүйлсээс аль нь дэлгэцэд текст оруулах боломжтой вэ? ",
-          propositions:[
-            {props: require("~/assets/exam/q1.jpg"),},
-            {props: require("~/assets/exam/q2.jpg"),},
-            {props: require("~/assets/exam/q3.png"),correct:true},
-            {props: require("~/assets/exam/q4.png"),}
-            
-          ]
-          
-        },
-        {
-          question:"Дараах зурагт үзүүлсэн зүйлсээс компьютерийн гаралтын төхөөрөмжийг сонгоно уу?",
-          propositions:[
-            {props: require("~/assets/exam/q1.jpg"),},
-            {props: require("~/assets/exam/q2.jpg"),correct:true},
-            {props: require("~/assets/exam/q3.png"),},
-            {props: require("~/assets/exam/q4.png"),}
-            
-            
-          ]         
-        },       
-        {
-          question:"Оруулсан байгаа аппликейшнийг хаах боломжит үйлдлийг хийнэ үү?",
-          propositions:[
-            {props: require("~/assets/exam/k1.png"),correct:true},
-            {props: require("~/assets/exam/k2.png"),},
-            {props: require("~/assets/exam/k3.png"),},
-            {props: require("~/assets/exam/k4.png"),}    
-            
-          ]
-          
-        },
-        {
-          question:"Бүх үсгийг томоор бичихийн тулд ямар товчлуурыг дарах хэрэгтэй вэ?",
-          propositions:[
-            {props: require("~/assets/exam/k1.png"),},
-            {props: require("~/assets/exam/k2.png"),correct:true},
-            {props: require("~/assets/exam/k3.png"),},
-            {props: require("~/assets/exam/k4.png"),}    
-            
-          ]
-          
-        },
-        {
-          question:"Шинэ мөр эхлүүлэхийн тулд ямар товчон дээр дарах хэрэгтэй вэ?",
-          propositions:[
-            {props: require("~/assets/exam/k1.png"),},
-            {props: require("~/assets/exam/k2.png"),},
-            {props: require("~/assets/exam/k3.png"),correct:true},
-            {props: require("~/assets/exam/k4.png"),}    
-            
-          ]
-          
-        },
-        {
-          question:"Ямар нэгэн хийсэн үйлдэл болон оруулсан текстээ хэрхэн буцаах вэ?",
-          propositions:[
-            {props: require("~/assets/exam/k1.png"),},
-            {props: require("~/assets/exam/k2.png"),},
-            {props: require("~/assets/exam/k3.png"),},
-            {props: require("~/assets/exam/k4.png"),correct:true}    
-            
-          ]
-          
-        },
-        {
-          question:"Оруулсан байгаа бүх текстүүдийг хэрхэн тодруулах(идэвхижүүлэх) вэ?",
-          propositions:[
-            {props: require("~/assets/exam/k1.png"),},
-            {props: require("~/assets/exam/k2.png"),},
-            {props: require("~/assets/exam/k3.png"),},
-            {props: require("~/assets/exam/k5.png"),correct:true}    
-            
-          ]          
-        },
-        {
-          question:"Шинээр хавтас нээх зөв дарааллыг сонгоно уу?",
-          propositions:[
-            {props: require("~/assets/exam/5.png"),correct:true},
-            {props: require("~/assets/exam/6.png"),},
-            {props: require("~/assets/exam/7.png"),},
-            {props: require("~/assets/exam/8.png"),}    
-            
-          ]
-        },
-      {
-          question:"Дараах командаас аль нь нэр солих зориулалттай команд вэ?",
-          propositions:[
-            {props: require("~/assets/exam/9.png"),correct:true},
-            {props: require("~/assets/exam/10.png"),},
-            {props: require("~/assets/exam/11.png"),},
-            {props: require("~/assets/exam/12.png"),}    
-            
-          ]
-        },
-         {
-          question:"Устгасан файл болон хавтасыг хогийн савнаас сэргээхдээ ямар командаар сэргээх вэ?",
-          propositions:[
-            {props: require("~/assets/exam/10.png"),},
-            {props: require("~/assets/exam/13.png"),correct:true},
-            {props: require("~/assets/exam/14.png"),},
-            {props: require("~/assets/exam/15.png"),}    
-            
-          ]
-        }    
+        }
       ],
       a:0,
       b:1,

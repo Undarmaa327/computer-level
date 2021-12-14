@@ -97,7 +97,7 @@
                                                 </p>
                                                 <ul class="test-bar">
                                                     <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Компьютерийн үндсэн ур чадвар</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Интернетийн үндэс</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/internet" target="_blank"><div class="test-link-item"><span>Интернетийн үндэс</span></div></a></li>
                                                     <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Имэйл ашиглах</span></div></a></li>
                                                     <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Windows</span></div></a></li>
                                                 </ul>
@@ -119,8 +119,8 @@
                                                     Хэрэглээний програм
                                                 </p>
                                                 <ul class="test-bar">
-                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Microsoft Word</span></div></a></li>
-                                                    <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Microsoft Excel</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/word" target="_blank"><div class="test-link-item"><span>Microsoft Word</span></div></a></li>
+                                                    <li class="test-item"><a class="test-link" href="/excel" target="_blank"><div class="test-link-item"><span>Microsoft Excel</span></div></a></li>
                                                     <li class="test-item"><a class="test-link" href="/exam" target="_blank"><div class="test-link-item"><span>Microsoft Powerpoint</span></div></a></li>
                                                 </ul>
                                             </v-card>
